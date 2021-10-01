@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;900&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+}
+.content-wrapper {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-image {
+    margin-bottom: 40px;
+    height: 80px;
+}
+.main-title {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.main-text { 
+    text-align: left;
+    line-height: 1;
+
+}
+.main-text2 {
+    margin-bottom: 40px;
+    text-align: left;
+    line-height: 23px;
+}
+.vinculo    {
+    text-align: left;
+    display: inline-block;
+    color: #b200fd;
+    text-decoration: underline;
+    border-radius: 3px;
+    font-weight: 500px;
+}
+.container-text {
+    background-color: #f8f8ff;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.bottom-text {
+    text-align: left;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+.bold-text {
+    font-weight: 600;
+    margin-top: 20px;
+}
+.bottom-wrapper {
+    text-align: left;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.content-wrapper p { /* selector de elemento, seleccionas cierto elemento o varios elementos 
+    (todos los elementos p que sean hijos directos del container text) */
+    padding: 15px 0; /* shorthand, dos valores dentro de la misma regla, 15 para arriba y 15 para abajo 
+    0 para la derecha e izquierda
+    la intencion seria que el codigo fuese mas legible al eliminar el exceso de clases y elementos innecesarios(pensar donde va a haber cajas y solo armar las cajas necesarias */
+}
